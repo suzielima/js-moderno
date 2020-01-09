@@ -1,0 +1,27 @@
+
+Tratando-se de regra de negócio, utiliza-se o modelo mvc
+
+faz separação entre model e view
+
+controller altera o dado que é o model e a view se atualiza para mostrar o estado mais atual desse model,
+ou seja, as regras de negócio não ficam espalhadas na view, 
+ficam no model, pra onde vai o model, as regras de negócio vao junto.
+
+
+
+orientação voltada a objeto possui classes e os nomes de classes começam com letra maiúscula
+ (na maioria das vezes o nome do arquivo é o mesmo da classe para manter organizado, mas não é regra).
+
+instancia da classe> dois objetos criados a partir da classe criada
+Toda classe que tem construtor só é chamada se usar o operador new.NomeDaClasse.
+
+no mundo do JS, um método é uma espécie de função
+
+se eu crio uma função dentro de uma classe, eu vou chamar de método
+
+se eu crio uma função fora de uma classe, eu chamo de função mesmo.
+
+
+
+
+
