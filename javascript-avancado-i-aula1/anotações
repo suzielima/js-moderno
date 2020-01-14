@@ -21,6 +21,11 @@ se eu crio uma função dentro de uma classe, eu vou chamar de método
 
 se eu crio uma função fora de uma classe, eu chamo de função mesmo.
 
+quando a propriedade é um getter, ela é apenas de leitura.
+
+quem tem método é objeto. (método>> x.algumaCoisa).
+
+
 
 
 
