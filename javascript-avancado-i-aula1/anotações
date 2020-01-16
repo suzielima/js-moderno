@@ -7,13 +7,22 @@ controller altera o dado que é o model e a view se atualiza para mostrar o esta
 ou seja, as regras de negócio não ficam espalhadas na view, 
 ficam no model, pra onde vai o model, as regras de negócio vao junto.
 
-
-
 orientação voltada a objeto possui classes e os nomes de classes começam com letra maiúscula
  (na maioria das vezes o nome do arquivo é o mesmo da classe para manter organizado, mas não é regra).
 
 instancia da classe> dois objetos criados a partir da classe criada
 Toda classe que tem construtor só é chamada se usar o operador new.NomeDaClasse.
+
+Para definirmos atributos de instância de uma classe, precisamos adicionar em sua definição um constructor.
+É através do construtor que adicionamos na variável implícita this as propriedades que desejamos que toda instância da classe tenha.
+ex.>> class Pessoa {
+
+    constructor() {
+
+        this.nome = '';
+        this.idade = 0;
+    }
+}
 
 no mundo do JS, um método é uma espécie de função
 
@@ -25,6 +34,14 @@ quando a propriedade é um getter, ela é apenas de leitura.
 
 quem tem método é objeto. (método>> x.algumaCoisa).
 
+adoção de novo hábito: substituir nas declarações de váriáveis o uso de var por let,
+que permite um escopo de bloco e evita que as mesmas vazem para um escopo global.
+Antes do ES6, em JS, era comum o uso de funções para a criação de um escopo para a variável.
+
+programação precedual: o dado e o comportamento estão separados.
+
+na programação orientada a objetos, temos uma forte conexão entre dado e comportamento;
+onde o dado vai, os comportamentos que operam aqueles dados vão juntos.
 
 
 
