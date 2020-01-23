@@ -43,7 +43,16 @@ programação precedual: o dado e o comportamento estão separados.
 na programação orientada a objetos, temos uma forte conexão entre dado e comportamento;
 onde o dado vai, os comportamentos que operam aqueles dados vão juntos.
 
+o <document.querySelector() é o responsável por buscar no DOM os elementos com id '#exemplo'>
 
+método e função são parecidos, a diferença é que chamamos de método aquilo que pertence a um objeto,
+ e função é a que não pertende a nada, é a que vive sozinha. 
+ Quando um método é jogado para uma variável ele passa a ser uma função, pois não pertence a um objeto.
+
+ Uma das coisas que deve ser evitada em JS é percorrer o DOM, para isso, 
+ usaremos o constructor para mover os inputs para dentro dele, mas em vez de criar  uma variável, será criado
+ atributos de instância como o this.
+ 
 
 
 
