@@ -53,7 +53,11 @@ método e função são parecidos, a diferença é que chamamos de método aquil
  usaremos o constructor para mover os inputs para dentro dele, mas em vez de criar  uma variável, será criado
  atributos de instância como o this.
  
- 
+ Por que funcionar passar um array pra date? Porque qdo geramos os array com ano, mes e dia,
+ ele transforma cada item em uma string e adiciona separado.
 
+Existe várias formas de criar datas, uma delas é passar o mês de 0 a 11 (0 janeiro, 11 dezembro)
+
+...(reticências significa spread operator)
 
 
