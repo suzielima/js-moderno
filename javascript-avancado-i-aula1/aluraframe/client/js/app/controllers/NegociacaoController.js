@@ -7,6 +7,7 @@ class NegociacaoController {
     this._inputData = $('#data');
     this._inputQuantidade = $('#quantidade');
     this._inputValor = $('#valor');
+    this._listaNegociacoes = new ListaNegociacoes();
     //_indicação para o programador q ele não pode alterar negociações.
   }
 
@@ -18,9 +19,11 @@ class NegociacaoController {
       this._inputQuantidade.value,
       this._inputValor.value
     );
-    console.log(negociacao);
 
-    console.log(DateHelper.dataParaTexto(negociacao.data));
+    this._listaNegociacoes.adiciona(negociacao);
+    console.log(this._listaNegociacoes._negociacoes);
+
+    //console.log(DateHelper.dataParaTexto(negociacao.data));
 
 
 
