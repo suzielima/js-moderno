@@ -8,7 +8,10 @@ class NegociacaoController {
     this._inputQuantidade = $('#quantidade');
     this._inputValor = $('#valor');
     this._listaNegociacoes = new ListaNegociacoes();
+    this._negociacoesView = new NegociacoesView($('#negociacoesView'));
     //_indicação para o programador q ele não pode alterar negociações.
+
+    this._negociacoesView.update(this._listaNegociacoes);
   }
 
   adiciona(event) {
@@ -33,7 +36,6 @@ class NegociacaoController {
     this._inputData.value = '';
     this._inputQuantidade.value = 1;
     this._inputValor.value = 0.0;
-
     this._inputData.focus();
 
 
