@@ -70,3 +70,5 @@ Template string: exemplo: return `${data.getDate()}/${data.getMonth() + 1}/${dat
 
 expressão regular: exemplo /\d{4}-\d{2}-\d{2}/     >>>serve para testar se a data retorna certa ou quando quer retornar erro caso a data não seja assim.
 A expressão regular é utilizada para encontrar padrões. (se o /\D (se o d for maiusculo, dai ele quer considerar qualquer coisa diferente de número))
+
+Os métodos determinam o comportamento dos objetos de uma classe
