@@ -72,3 +72,5 @@ expressão regular: exemplo /\d{4}-\d{2}-\d{2}/     >>>serve para testar se a da
 A expressão regular é utilizada para encontrar padrões. (se o /\D (se o d for maiusculo, dai ele quer considerar qualquer coisa diferente de número))
 
 Os métodos determinam o comportamento dos objetos de uma classe
+
+a função 'reduce' processa um array e retorna um único resultado
