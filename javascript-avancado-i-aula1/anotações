@@ -73,4 +73,9 @@ A expressão regular é utilizada para encontrar padrões. (se o /\D (se o d for
 
 Os métodos determinam o comportamento dos objetos de uma classe
 
-a função 'reduce' processa um array e retorna um único resultado
+Função map que tem um array de conteúdo X para ter array de conteúdo Y 
+
+Função join para concatenar todos os itens de um array que equivalem as tr das tabelas
+
+a função 'reduce' processa um array e retorna um único resultado (totaliza um array de maneira funcional)
+
