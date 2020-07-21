@@ -84,3 +84,7 @@ arrow function (=>) não é apenas uma maneira sucinta de escrever uma função,
  Da maneira como estruturamos o código, o this será NegociacaoController - esta condição será mantida independente do local em que chamemos a arrow function, 
  porque ela está amarrada a um escopo imutável.
 Então, o this de uma arrow function é léxico, enquanto o this de uma função padrão é dinâmico. Com esse ajuste, conseguimos deixar o nosso código mais sucinto.
+
+O padrão de projeto Proxy nada mais é do que um objeto "falso", "mentiroso", que envolve e encapsula o objeto real que queremos interagir.
+É como se fosse uma interface, entre o objeto real e o resto do código. Conseguimos assim controlar o acesso aos seus atributos e métodos. 
+Nele também podemos pendurar códigos que não cabem de estar alocados nos nossos modelos, mas que necessitam ser executados no caso de uma alteração ou atualização do mesmo.
